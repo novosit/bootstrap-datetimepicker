@@ -30,7 +30,7 @@ THE SOFTWARE.
     'use strict';
     if (typeof define === 'function' && define.amd) {
         // AMD is used - Register as an anonymous module.
-        define(['jquery', 'moment'], factory);
+        define(['jQuery/core', 'moment/moment'], factory);
     } else if (typeof exports === 'object') {
         factory(require('jquery'), require('moment'));
     }
