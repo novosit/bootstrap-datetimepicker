@@ -18,9 +18,9 @@
 	  "moment"
   ],
   "dependencies": {
-      "moment": "~2.8.1",
-      "bootstrap": "~3.0",
-      "jquery": "~1.8.3"
+      "moment": "github:novosit/moment#master",
+      "bootstrap": "github:novosit/bootstrap#ProDoc-1.x",
+      "jquery": "github:novosit/jquery#master"
   },
   "devDependencies": {
     "grunt": "latest",
